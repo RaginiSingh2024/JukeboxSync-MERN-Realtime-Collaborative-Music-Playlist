@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "title": "Neon Dreams",
+    "artist": "Echo Pulse",
+    "duration": 210,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+  },
+  {
+    "id": "2",
+    "title": "Midnight Drive",
+    "artist": "City Runner",
+    "duration": 225,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+  },
+  {
+    "id": "3",
+    "title": "Golden Horizon",
+    "artist": "Sunset Avenue",
+    "duration": 198,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+  },
+  {
+    "id": "4",
+    "title": "Electric Heartbeat",
+    "artist": "Stereo Bloom",
+    "duration": 236,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+  },
+  {
+    "id": "5",
+    "title": "Crystal Echoes",
+    "artist": "Dreamwave",
+    "duration": 250,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+  },
+  {
+    "id": "6",
+    "title": "Nightfall Voyage",
+    "artist": "Lunar Lights",
+    "duration": 240,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+  },
+  {
+    "id": "7",
+    "title": "Skyline Rhythm",
+    "artist": "Metro Beats",
+    "duration": 228,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+  },
+  {
+    "id": "8",
+    "title": "Shadow Beats",
+    "artist": "PulseShade",
+    "duration": 252,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+  },
+  {
+    "id": "9",
+    "title": "Echoing Stars",
+    "artist": "Night Sky",
+    "duration": 214,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
+  },
+  {
+    "id": "10",
+    "title": "Digital Dreams",
+    "artist": "Waveform",
+    "duration": 260,
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3"
+  }
+]

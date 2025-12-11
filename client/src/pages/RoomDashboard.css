@@ -1,0 +1,84 @@
+.room-dashboard {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+    padding: 2rem;
+    padding-bottom: 100px;
+}
+
+.room-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.room-info h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.room-code-display {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.room-code-display:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.code-label {
+    color: #b0b0c0;
+    font-size: 0.875rem;
+}
+
+.code-value {
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+    font-size: 1.125rem;
+}
+
+.search-toggle-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search-toggle-btn:hover {
+    transform: translateY(-2px);
+}
+
+.dashboard-content {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 2rem;
+}
+
+.main-section {
+    min-width: 0;
+}
+
+.sidebar {
+    min-width: 0;
+}
+
+@media (max-width: 968px) {
+    .dashboard-content {
+        grid-template-columns: 1fr;
+    }
+}
