@@ -1,5 +1,4 @@
 # 🎵 JukeboxSync
-
 A real-time collaborative music playlist web application where users join a room and collectively control a synchronized playlist. Built with the MERN stack (MongoDB, Express, React, Node.js) and Socket.IO.
 
 ## ✨ Features
@@ -212,6 +211,16 @@ The app uses a server-authoritative timestamp system:
 - Socket.IO
 - MongoDB & Mongoose
 - UUID
+
+## 🎯 Live Deployment Links
+
+🚀 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 (𝐕𝐞𝐫𝐜𝐞𝐥): 
+https://jukebox-sync-client.vercel.app
+
+🌐 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐀𝐏𝐈 (𝐑𝐞𝐧𝐝𝐞𝐫): 
+https://jukeboxsync-server.onrender.com
+
+📦 𝐌𝐚𝐢𝐧 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲: https://github.com/RaginiSingh2024/JukeboxSync-MERN-Realtime-Collaborative-Music-Playlist
 
 ## 🐛 Troubleshooting
 
