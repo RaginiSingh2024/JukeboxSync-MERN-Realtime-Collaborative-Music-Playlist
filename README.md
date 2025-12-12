@@ -198,29 +198,94 @@ The app uses a server-authoritative timestamp system:
 
 ## 🎨 Tech Stack
 
-**Frontend:**
-- React 18
+**Frontend (React + Vite):**
+- React.js
+- Context API
 - React Router
 - Socket.IO Client
-- Axios
 - CSS3 with Gradients & Animations
 
-**Backend:**
+**Backend (Node + Express):**
 - Node.js
-- Express
-- Socket.IO
-- MongoDB & Mongoose
-- UUID
+- Express.js REST API
+- Socket.IO Server
+- MongoDB Atlas
+- Mongoose
 
-## 🎯 Live Deployment Links
+**Deployment:**
+- 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝: Vercel
 
-🚀 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 (𝐕𝐞𝐫𝐜𝐞𝐥): 
-https://jukebox-sync-client.vercel.app
+- 𝐁𝐚𝐜𝐤𝐞𝐧𝐝: Render
 
-🌐 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐀𝐏𝐈 (𝐑𝐞𝐧𝐝𝐞𝐫): 
-https://jukeboxsync-server.onrender.com
+- 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞: MongoDB Atlas
 
-📦 𝐌𝐚𝐢𝐧 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲: https://github.com/RaginiSingh2024/JukeboxSync-MERN-Realtime-Collaborative-Music-Playlist
+# 🎯 Project Features
+
+🔹 𝟏. 𝐂𝐫𝐞𝐚𝐭𝐞 𝐨𝐫 𝐉𝐨𝐢𝐧 𝐑𝐨𝐨𝐦𝐬
+
+Each room has a unique Room Code.
+
+Users join the same room and collaborate live.
+
+🔹 𝟐. 𝐒𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐧𝐠𝐬 (𝐃𝐮𝐦𝐦𝐲 𝐉𝐒𝐎𝐍)
+
+Local dummy song data stored in backend.
+
+Searching filters results in real-time.
+
+🔹 𝟑. 𝐀𝐝𝐝 𝐒𝐨𝐧𝐠𝐬 𝐭𝐨 𝐐𝐮𝐞𝐮𝐞
+
+Songs added by any user appear instantly for everyone.
+
+Managed using Socket.io events.
+
+🔹 𝟒. 𝐍𝐨𝐰 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐒𝐞𝐜𝐭𝐢𝐨𝐧
+
+Shows current song, artist, duration.
+
+🔹 𝟓. 𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐒𝐲𝐧𝐜
+
+Queue changes
+
+Song skip voting
+
+User joining/leaving
+Everything syncs instantly via WebSockets.
+
+🔹 𝟔. 𝐕𝐨𝐭𝐞-𝐭𝐨-𝐒𝐤𝐢𝐩 𝐒𝐲𝐬𝐭𝐞𝐦
+
+Users vote to skip the current song.
+
+If majority votes reached → automatically skips to next track.
+
+🔹 𝟕. 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧 (𝐌𝐨𝐧𝐠𝐨𝐃𝐁 𝐀𝐭𝐥𝐚𝐬)
+Stores:
+
+Room details
+
+Song queue
+
+Active user IDs
+
+Voting data
+
+## 📌 Project Summary
+
+JukeboxSync is a MERNG + Socket.io based real-time collaborative music playlist application where users can:
+
+✔ Join a room using a room code
+
+✔ Search songs
+
+✔ Add songs to a shared queue
+
+✔ Vote to skip songs
+
+✔ See real-time updates for all users
+
+✔ View active users in the room
+
+This project demonstrates 𝐫𝐞𝐚𝐥-𝐭𝐢𝐦𝐞 𝐜𝐨𝐦𝐦𝐮𝐧𝐢𝐜𝐚𝐭𝐢𝐨𝐧, 𝐑𝐄𝐒𝐓 𝐀𝐏𝐈 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭, 𝐌𝐨𝐧𝐠𝐨𝐃𝐁 𝐢𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧, 𝐟𝐫𝐨𝐧𝐭𝐞𝐧𝐝–𝐛𝐚𝐜𝐤𝐞𝐧𝐝 𝐜𝐨𝐦𝐦𝐮𝐧𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐝𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭 𝐬𝐤𝐢𝐥𝐥𝐬, as required in 𝐦𝐲 𝐒𝐞𝐦𝐞𝐬𝐭𝐞𝐫 𝟑 𝐅𝐢𝐧𝐚𝐥 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐚𝐥 𝐒𝐮𝐛𝐦𝐢𝐬𝐬𝐢𝐨𝐧.
 
 ## 🐛 Troubleshooting
 
@@ -236,9 +301,23 @@ https://jukeboxsync-server.onrender.com
 - Check browser console for errors
 - Ensure autoplay is allowed in browser
 
-## 📝 License
 
-MIT
+## 🎯 Live Deployment Links
+
+🚀 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 (𝐕𝐞𝐫𝐜𝐞𝐥): 
+🔗 https://jukebox-sync-client.vercel.app
+
+🌐 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐀𝐏𝐈 (𝐑𝐞𝐧𝐝𝐞𝐫): 
+🔗 https://jukeboxsync-server.onrender.com
+
+📦 𝐌𝐚𝐢𝐧 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲: 🔗 https://github.com/RaginiSingh2024/JukeboxSync-MERN-Realtime-Collaborative-Music-Playlist
+
+
+# 👩‍💻 Author
+
+𝑵𝒂𝒎𝒆: 𝑹𝒂𝒈𝒊𝒏𝒊 𝑺𝒊𝒏𝒈𝒉
+𝑪𝒐𝒖𝒓𝒔𝒆: 𝑩.𝑻𝒆𝒄𝒉 𝑪𝑺𝑬 – 3𝒓𝒅 𝑺𝒆𝒎𝒆𝒔𝒕𝒆𝒓
+𝑷𝒓𝒐𝒋𝒆𝒄𝒕: 𝑹𝒆𝒂𝒍-𝑻𝒊𝒎𝒆 𝑪𝒐𝒍𝒍𝒂𝒃𝒐𝒓𝒂𝒕𝒊𝒗𝒆 𝑴𝒖𝒔𝒊𝒄 𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 𝑺𝒚𝒔𝒕𝒆𝒎
 
 ## 👥 Contributing
 
