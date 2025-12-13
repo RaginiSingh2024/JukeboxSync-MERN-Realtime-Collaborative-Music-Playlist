@@ -311,7 +311,7 @@ This project demonstrates 𝐫𝐞𝐚𝐥-𝐭𝐢𝐦𝐞 𝐜𝐨𝐦𝐦𝐮
 🔗 https://jukeboxsync-server.onrender.com
 
 🎨 𝐅𝐢𝐠𝐦𝐚 𝐔𝐈 𝐃𝐞𝐬𝐢𝐠𝐧:
-🔗 https://stitch.withgoogle.com/projects/9568568451094296032
+🔗 https://www.figma.com/design/WDHJj0Q6Jn27dIkAbIAJy6/JukeboxSync-%E2%80%93-UI-Design--Semester-3-?node-id=0-1&t=oO30lROPkzjkOkQn-1
 
 📦 𝐌𝐚𝐢𝐧 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲: 🔗 https://github.com/RaginiSingh2024/JukeboxSync-MERN-Realtime-Collaborative-Music-Playlist
 
