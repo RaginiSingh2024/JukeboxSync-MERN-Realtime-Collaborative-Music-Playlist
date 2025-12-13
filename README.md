@@ -310,13 +310,33 @@ This project demonstrates 𝐫𝐞𝐚𝐥-𝐭𝐢𝐦𝐞 𝐜𝐨𝐦𝐦𝐮
 🌐 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐀𝐏𝐈 (𝐑𝐞𝐧𝐝𝐞𝐫): 
 🔗 https://jukeboxsync-server.onrender.com
 
+🎨 𝐅𝐢𝐠𝐦𝐚 𝐔𝐈 𝐃𝐞𝐬𝐢𝐠𝐧:
+🔗 https://stitch.withgoogle.com/projects/9568568451094296032
+
 📦 𝐌𝐚𝐢𝐧 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲: 🔗 https://github.com/RaginiSingh2024/JukeboxSync-MERN-Realtime-Collaborative-Music-Playlist
 
+## 📄 Final Project Documentation: 
+The complete project documentation for my **3rd Semester Final Exam** is available here:
+
+🔗 **Google Docs (Final Report):** 
+https://docs.google.com/document/d/131FAxowzHDDpkFV_0wDaWU-4Mar1FPPTrfKfk5x75dU/edit?usp=sharing
+
+This document includes:
+- Problem Statement & Solution
+- MERN Stack Architecture
+- Frontend (React) explanation
+- Backend (Node & Express) explanation
+- MongoDB Database design
+- Real-time Socket.IO flow
+- Figma UI Design
+- Deployment links
 
 # 👩‍💻 Author
 
 𝑵𝒂𝒎𝒆: 𝑹𝒂𝒈𝒊𝒏𝒊 𝑺𝒊𝒏𝒈𝒉
+
 𝑪𝒐𝒖𝒓𝒔𝒆: 𝑩.𝑻𝒆𝒄𝒉 𝑪𝑺𝑬 – 3𝒓𝒅 𝑺𝒆𝒎𝒆𝒔𝒕𝒆𝒓
+
 𝑷𝒓𝒐𝒋𝒆𝒄𝒕: 𝑹𝒆𝒂𝒍-𝑻𝒊𝒎𝒆 𝑪𝒐𝒍𝒍𝒂𝒃𝒐𝒓𝒂𝒕𝒊𝒗𝒆 𝑴𝒖𝒔𝒊𝒄 𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 𝑺𝒚𝒔𝒕𝒆𝒎
 
 ## 👥 Contributing
